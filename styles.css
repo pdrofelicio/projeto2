@@ -1,9 +1,12 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
+  margin-top: 20px;
 }
 
 form, table {
@@ -31,4 +34,11 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
 }
