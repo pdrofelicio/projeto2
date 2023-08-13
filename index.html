@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agenda de Contatos</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica&display=swap">
 </head>
 <body>
   <h1>Agenda de Contatos</h1>
   
   <form id="contact-form">
-    <label for="Nome">Nome:</label>
-    <input type="Nome" id="name" required>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" required>
     
-    <label for="Telefone">Telefone:</label>
-    <input type="Tel" id="phone" required>
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" required>
     
-    <button type="Enviar">Cadastrar</button>
+    <button type="submit">Cadastrar</button>
   </form>
   
   <table id="contacts-table">
@@ -38,4 +39,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
